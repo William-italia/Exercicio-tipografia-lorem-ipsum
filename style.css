@@ -44,14 +44,19 @@ ol {
 .grad {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 img {
-  
   /* border-radius: 5px; */
   border: 1px solid black;
   box-shadow: 5px 8px 15px;
   margin: 10px;
+  margin-left: 2rem;
+}
+
+img:hover {
+  transform: scale(1.1);
 }
 
 p {
